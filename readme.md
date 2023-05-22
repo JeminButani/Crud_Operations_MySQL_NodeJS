@@ -24,7 +24,7 @@ This is a Node.js API for managing employees with CRUD (Create, Read, Update, De
 
 2. Install the dependencies:
 
-    npm install
+    `npm install`
 
 3. Configure the database connection:
 
@@ -33,7 +33,7 @@ This is a Node.js API for managing employees with CRUD (Create, Read, Update, De
 
 4. Run the API server:
 
-    npm start
+    `npm start`
 
     The server will start running on http://localhost:4000.
 

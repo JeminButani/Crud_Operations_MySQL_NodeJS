@@ -1,5 +1,4 @@
 const express = require('express');
-// const bodyParser = require('body-parser');
 const cors = require("cors");
 const employeeRoutes = require('./Routes/Empolyee');
 
@@ -7,7 +6,6 @@ const app = express();
 const PORT = 4000;
 
 // Middleware
-// app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
