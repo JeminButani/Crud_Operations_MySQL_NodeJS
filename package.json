@@ -1,0 +1,24 @@
+{
+  "name": "crud_task",
+  "version": "1.0.0",
+  "description": "This is the task simple crud operations using NodeJS and MySQL ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeminButani/Crud_Operations_MySQL_NodeJS.git"
+  },
+  "author": "Jemin Butani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeminButani/Crud_Operations_MySQL_NodeJS/issues"
+  },
+  "homepage": "https://github.com/JeminButani/Crud_Operations_MySQL_NodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
